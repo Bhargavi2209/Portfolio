@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style>
+body{
+  background-image: url("Coding.png");
+  background-repeat: no-repeat;
+    background-size: 2368px;
+    background-position: bottom;
+  background-color: #330066;
+  color: black;
+}
+.container .abc
+{
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 110px;
+  background: white;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.abc:hover .inner {
+  transform: rotateY(180deg);
+}
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.front {
+  background-color: #ffe6ff;
+  color: black;
+}
+
+.back {
+  background-color: #0040ff;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+<body>
+​<div class="container">
+<div id="personal">
+<center><h1>Bhargavi Patel</h1></center>
+<center><h3>(519)897-0622</h3></center>
+<center><h3>bhargavipatel2209@gmail.com</h3></center>
+<hr>
+</div>
+
+<div id="skills" class="abc" style="float: left;">
+  <div class="inner">
+    <div class="front">
+  <h1 allign="right">Skills</h1>
+</div>
+<div id="newdiv" class="back" toggel>
+  <ul>
+    <li>Creative</li>
+    <li>Good communication skill</li>
+    <li>Good analytical and problem solving skill</li>
+    <li>Qucik Learner</li>
+    <li>Time management and Priortizing skills</li>
+    <li>Dedicated, self motivated and always ready to learn new things</li>
+    <li>Expirence in web software development </li>
+    <li>know object oreainte concepts</li>
+  </ul>
+
+</div>​
+</div>
+</div>
+
+<div id="technical" class="abc" style="float: right;">
+  <div class="inner">
+    <div class="front">
+  <h1>Technical skills</h1>
+</div>
+<div class="back">
+  <ul>
+    <li>Programing Language: C, Java, HTML, CSS, JavaScript, Python, React, jQuery,JSON,XML,C++</li>
+    <li>Software Known: Eclipse, Atom, IntelliJ, Visual Studio, Arduino, Atollic , virtual box, VMware, Scrimba, Quartus</li>
+    <li>Relational Database System: Oracle, SQL, MySQL</li>
+    <li>Software Application: Microsoft Office</li>
+    <li>Version control Tools: SVN, Git, CodePen</li>
+  </ul>
+
+</div>
+</div>
+</div>
+
+<div id="expirence" class="abc" style="float: left; ">
+  <div class="inner">
+    <div class="front">
+  <h1 allign="right">Expirence</h1>
+</div>
+<div class="back">
+  <h3>Tata Consultancy Services                Feb 2016-Nov2017</h3>
+  <h4>Technologies and languegies used:Java, HTML, CSS, JavaScript, JQuery, REST API, ajax, Oracle, XML, UI Design, JSON</h4>
+  <h4>IDE and Tools used:Eclipse, SVN, Apache Tomcat, VPN, Linux, MVC, SDLC, Oracle database management</h4>
+
+</div>
+</div>
+</div>
+
+<div id="education" class="abc" style="float: right;">
+  <div class="inner">
+    <div class="front">
+  <h1 allign="right">Education</h3>
+  </div>
+  <div class="back">
+    <h4>Post Graduation Certification in Embedded System Development  Jan 2018- April 2019</h4>
+    <h4>Conestoga College-Cambdrige, Ontario,Canada</h4>
+
+    <h4>Bachlours in Electronics and Communications  June 2011- June 2015</h4>
+    <h4>Gujrat technological university, Gujarat, India</h4>
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+​
